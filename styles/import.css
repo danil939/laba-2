@@ -1,0 +1,7 @@
+@import url(style.css);
+
+@import url(slyle.css) (min-width:1024px);
+
+@import url(tablet.css) (min-width:769px) and (max-width:1023px);
+
+@import url(mobile.css) (max-width:768px);
