@@ -1,0 +1,178 @@
+h1{
+    font-size: 16px;
+    text-align: center;
+  }
+ 
+  .flex-container{
+   width: 90%;
+   height: 100%;
+   padding:2rem 0 0 0;
+   border-radius: 8px;
+   display: block;
+   margin: 0 5% 0 5%;
+
+  }
+
+  .flex_box {
+   width: 100%;
+   height: 320px;
+   border-radius: 8px;
+   text-align: justify;
+   overflow-y: auto;
+   margin-bottom: 30px;
+   border: 1px solid black;
+   padding: 7px 10px 7px 10px;
+   font-size: 14px;
+ 
+ }
+
+ 
+ .IMG {
+   width: 100%;
+   height: 320px;
+   border-radius: 8px;
+   margin:0 0 3rem 0;
+   border: 1px solid black;
+ }
+ .IMG img{
+   width: 100%;
+   height: 100%;
+   border-radius: 8px;
+   padding: 0;
+ }
+ 
+ 
+ .flex_box li {
+   text-align: left;
+   color: black;
+   padding-left:10px; 
+ }
+ .nazv h1{
+   font-size: 22px;
+   text-align: center;
+   margin: 0 0 2rem 0;
+ }
+ 
+ .preds {
+   width: 90%;
+   
+   border-radius: 8px;
+   display: block;
+   margin: 0 5% 0 5%;
+
+  }
+  .preds img {
+   width: 100%;
+   height:350px;
+  border-radius: 8px;
+ }
+ 
+  .kpreds{
+   width: 100%;
+   height: 30%;
+   align-self: center;
+   margin: 0 0 3rem 0;
+ 
+ }
+ 
+ /*Главная конец*/
+
+
+      /*Шапка*/
+      header {
+        
+        height: 110px;
+        width: 100%;
+        margin-bottom:14rem;
+    }
+    .clearfix img{
+        height: 100px;
+        width: 100px;
+        padding: 5px;
+
+    }
+    .menu{
+        display: block;
+        padding:6rem 15% 0 15%;
+        width:100%;
+       
+    }
+    .menu__links {
+        display: block;
+        padding: 2rem 0 1rem 0; 
+    }
+    .mobile{
+        display: block;
+    }
+    nav {
+        display: block;
+        justify-content: center;
+    }
+    .menu li a{
+        width: 100%;
+        font-weight: bold;
+        font-size: 20px;
+       
+    }
+    .menu li {
+        margin:0;
+        padding:10px 10px 10px 10px;
+    }
+     /*окно поиска*/
+        form {
+            position: relative;
+            width: 40%;
+            margin: -47px 30% 5px 30%;
+            
+        }
+        input {
+            height: 35px;
+            font-size: 16px;
+        }
+        button { 
+            height: 33px;
+            width: 33px;
+            padding-right:0; 
+                }
+        button:before {
+            margin: -3px 0 4px -3px;
+            padding: 0 2px 0 0;
+    
+        }
+        @-moz-document url-prefix() {
+            button { 
+                height: 40px;
+                width: 40px;
+                
+            }
+            input {
+                height: 40px;
+            }
+        
+            button:before {
+            font-size: 38px;
+            padding:10px 0 0 0;
+        
+            }
+        
+        }
+      /*окно поиска конец*/
+ 
+    /*Шапка конец*/
+
+/*Подвал*/
+footer{
+    padding:0;
+    display: block;
+    margin: 4rem 0 1rem 0;
+    height: 100%;
+    width: 100%
+    
+}
+ footer img{
+     height:100px;
+     width:100px;
+     padding: 0 65px 0 65px;
+     margin: 0;
+ }
+ /*Подвал*/

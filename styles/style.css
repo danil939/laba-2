@@ -1,0 +1,174 @@
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../assets/FON.jpg); /* Путь к фоновому изображению */
+    background-attachment: fixed; /* Фиксируем фон веб-страницы */
+
+  }
+  /*Шапка*/
+  header {
+    grid-area: header;
+    background:url(../assets/shapka.jpg) no-repeat center top / cover ;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 90px;
+  }
+  
+  .clearfix img {
+  width: 180px;
+  height: 180px;
+  padding: 10px;
+  float: right;
+  margin-bottom: 0;
+  }
+
+  .clearfix:after {
+    content:'';
+    display: table;
+    width: 100%;
+    clear: both;
+  }
+    
+  div {  
+    box-sizing: border-box;
+  
+  }
+
+  nav {
+    display: flex;
+    margin-top:0; 
+
+  }
+
+  nav li {
+    margin-top: 12rem;
+  }
+  /*окно поиска*/
+  form {
+    position: relative;
+    width: 200px;
+    margin: 14.5rem -10rem 0 0;
+    
+  }
+  input, button {
+    border: none;
+    outline: none;
+    border-radius: 8px;
+  }
+  input {
+    width: 100%;
+    height: 28px;
+    background: #F9F0DA;
+    padding-left: 10px;
+    margin-right: -5rem;
+  }
+  button {
+    height: 25px;
+    width: 27px;
+    position: absolute;
+    top: 2px;
+    right: -6px;
+    bottom: 5px;
+    background:rgba(235, 69, 69, 0.981);
+    cursor: pointer;
+  }
+  button:before {
+    content: "\f105";
+    color: rgb(92, 79, 47);
+    font-size: 20px;
+    font-weight: bold;
+  
+  }
+  @-moz-document url-prefix() {
+    form {
+      margin: 14.5rem -10rem 0 0;
+    }
+    input {
+      height: 29px;
+    }
+    button {
+      height: 25px;
+      top:3px;
+    }
+    button:before {
+      font-size: 23px;
+
+    }
+
+  }
+/*окно поиска*/
+
+.menu {
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+  margin: 0 auto 40px auto;
+}
+.menu__links {
+  padding: 20px;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  	
+}
+.menu__link{
+  display: block;
+  padding: 5px;
+  border-radius:5px;
+}
+    
+.menu__link a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-right: 0;
+  padding-bottom: 4px;
+}
+/*Шапка конец*/
+
+.flex-container {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 8px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  	
+}
+
+/*Подвал сайта-начало*/
+footer{
+  grid-area:footer;
+  height: 150px;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 15px;
+  align-content: center;
+  background: #3a5966;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+/*Подвал сайта-конец*/
+
+
+ .color1 {
+   background: orange;
+ }
+ .color2 {
+  background:black;
+}
+
+
+

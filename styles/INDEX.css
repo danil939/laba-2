@@ -1,0 +1,10 @@
+
+@import url(style.css);
+
+@import url(index_desktop.css) (min-width:1024px);
+
+@import url(index_tablet.css) (min-width:769px) and (max-width:1023px);
+
+@import url(index_mobile.css) (max-width:768px);
+
+

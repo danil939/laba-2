@@ -1,0 +1,69 @@
+/* Сайт-Фото и Видео*/
+
+.photo {
+  width: 21%;
+  height: 30%;
+ border-radius: 8px;
+ margin: 0 2rem 1rem 2rem; 
+}
+.photo h1 {
+  font-size: 16px;
+}
+.photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  padding: 0;
+  margin:0 0 1rem 0;
+}
+
+.video-container {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 8px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.Video {
+ width: 100%;
+ height: 30%;
+ border-radius: 8px;
+ display: flex;
+ margin-bottom: 30px;
+ justify-content: space-around;
+}
+.Video iframe {
+  width: 45%;
+  height:20rem;
+  border-radius: 8px;
+  margin: 0 2rem 2rem 0;
+}
+.kvid{
+  width: 55%;
+  height: 30%;
+  align-self: center;
+}
+.kvid p {
+  color: black;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.nazv h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.nazv-1 h1{
+  text-align: center;
+  margin: 0 0 1rem 0;
+  padding: 1rem 0 0 0;
+}
+
+.nazv-2 h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Сайт-Фото и Видео  конец*/

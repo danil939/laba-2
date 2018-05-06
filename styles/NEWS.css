@@ -1,0 +1,10 @@
+ 
+@import url(style.css);
+
+@import url(news_desktop.css) (min-width:1024px);
+
+@import url(news_tablet.css) (min-width:769px) and (max-width:1023px);
+
+@import url(news_mobile.css) (max-width:768px);
+
+
