@@ -112,16 +112,16 @@
     }
     button {
     height: 21px;
-    width: 21px;
+    width: 23px;
     position: absolute;
     top: 1px;
-    right: -10px;
+    right: -9px;
     bottom:1px;
     background:rgba(235, 69, 69, 0.981);
     cursor: pointer;
     }
     button:before {
-    margin: 0px -2px  ;
+    margin: 0px -6px  ;
     font-size: 18px;
     }
     @-moz-document url-prefix() {
