@@ -25,7 +25,7 @@
          
           .nov_content1 img{
             width: 100%;
-            height: 350px;  
+            height: 250px;  
             border-radius: 8px;
           }
         
@@ -44,6 +44,8 @@
             margin:0 10% 0 10%;
             text-align: center;
             font-size: 18px;
+            border-radius: 8px;
+            border: 1px solid black;
        
           }
           .nov_content3 label p{
@@ -51,10 +53,9 @@
        
           }
           .nov_content3 textarea{
-            width: 350px;
-            height: 80px;
-            
-          
+            width: 200px;
+            height: 50px;
+         
           }
           .table {
             width: 85%; 
@@ -71,25 +72,36 @@
         .coment p{
          font-size: 16px;
         }
+        .coment{
+            margin: 1.5rem 0 0 0;
+            border-radius: 8px;
+            border: 1px solid black;
+            padding: 0 5% 0 5%;
+        }
+        .coment textarea{
+            width: 200px;
+            height: 50px;
+         
+          }
 
     /*Новости конец*/
    
-       /*Шапка*/
-       header {
+      /*Шапка*/
+      header {
         
-        height: 110px;
+        height: 90px;
         width: 100%;
-        margin-bottom:16.8rem;
+        margin-bottom:16rem;
     }
     .clearfix img{
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
         padding: 5px;
 
     }
     .menu{
         display: block;
-        padding:6rem 25% 0 25%;
+        padding:4.5rem 25% 0 25%;
         width:100%;
        
     }
@@ -162,7 +174,7 @@
 footer{
     padding:0;
     display: block;
-    margin: 4rem 0 1rem 0;
+    margin: 2rem 0 1rem 0;
     height: 100%;
     width: 100%
     
@@ -170,7 +182,7 @@ footer{
  footer img{
      height:80px;
      width:80px;
-     padding: 0 40px 0 40px;
+     padding: 0 20px 0 20px;
      margin: 0;
  }
  /*Подвал*/

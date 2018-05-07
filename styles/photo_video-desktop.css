@@ -1,20 +1,34 @@
 /* Сайт-Фото и Видео*/
+h1{
+  font-size: 20px;
+  text-align: center;
+}
+p{
+  font-size: 18px;
+}
+.flex-container{
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+}
 
+   
 .photo {
   width: 21%;
   height: 30%;
  border-radius: 8px;
  margin: 0 2rem 1rem 2rem; 
+ font-weight: 700;
 }
-.photo h1 {
-  font-size: 16px;
-}
+
 .photo img {
   width: 100%;
   height: 100%;
   border-radius: 8px;
   padding: 0;
-  margin:0 0 1rem 0;
+  margin:0 ;
 }
 
 .video-container {
@@ -47,14 +61,11 @@
 }
 .kvid p {
   color: black;
-  font-size: 16px;
-  font-weight: 900;
+  
+  font-weight: 700;
 }
 
-.nazv h1{
-  text-align: center;
-  margin-bottom: 30px;
-}
+
 .nazv-1 h1{
   text-align: center;
   margin: 0 0 1rem 0;
