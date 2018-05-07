@@ -75,102 +75,102 @@ p{
 
   
         /*Шапка*/
-        header {
+       header {
         
-            height: 80px;
-            width: 100%;
-            margin-bottom:14rem;
+        height: 80px;
+        width: 100%;
+        margin-bottom:8rem;
+    }
+    .clearfix img{
+        height: 70px;
+        width: 70px;
+        padding: 5px;
+
+    }
+    .menu{
+        display: block;
+        padding:4.5rem 25% 0 25%;
+        width:100%;
+       
+    }
+    .menu__links {
+        display: block;
+        padding: 2rem 0 1rem 0; 
+    }
+    .mobile{
+        display: block;
+    }
+    nav {
+        display: block;
+        justify-content: center;
+        padding: 0 0 2rem 0;
+    }
+    .menu li a{
+        width: 100%;
+        font-weight: bold;
+        font-size: 18px;
+       
+    }
+    .menu li {
+        margin:0;
+        padding:10px 10px 10px 10px;
+    }
+     /*окно поиска*/
+        form {
+            position: relative;
+            width: 50%;
+            margin: -47px 25% 5px 25%;
+         
+            
         }
-        .clearfix img{
-            height: 70px;
-            width: 70px;
-            padding: 5px;
+        input {
+            height: 33px;
+            font-size: 16px;
+        }
+        button { 
+            height: 30px;
+            width: 30px;
+            padding-right:0; 
+                }
+        button:before {
+            margin: -3px 0 4px -3px;
+            padding: 0 2px 0 0;
     
         }
-        .menu{
-            display: block;
-            padding:4.5rem 25% 0 25%;
-            width:100%;
-           
-        }
-        .menu__links {
-            display: block;
-            padding: 2rem 0 1rem 0; 
-        }
-        .mobile{
-            display: block;
-        }
-        nav {
-            display: block;
-            justify-content: center;
-            padding: 0 0 2rem 0;
-        }
-        .menu li a{
-            width: 100%;
-            font-weight: bold;
-            font-size: 18px;
-           
-        }
-        .menu li {
-            margin:0;
-            padding:10px 10px 10px 10px;
-        }
-         /*окно поиска*/
-            form {
-                position: relative;
-                width: 50%;
-                margin: -47px 25% 5px 25%;
-             
+        @-moz-document url-prefix() {
+            button { 
+                height: 40px;
+                width: 40px;
                 
             }
             input {
-                height: 33px;
-                font-size: 16px;
+                height: 40px;
             }
-            button { 
-                height: 30px;
-                width: 30px;
-                padding-right:0; 
-                    }
+        
             button:before {
-                margin: -3px 0 4px -3px;
-                padding: 0 2px 0 0;
+            font-size: 38px;
+            padding:10px 0 0 0;
         
             }
-            @-moz-document url-prefix() {
-                button { 
-                    height: 40px;
-                    width: 40px;
-                    
-                }
-                input {
-                    height: 40px;
-                }
-            
-                button:before {
-                font-size: 38px;
-                padding:10px 0 0 0;
-            
-                }
-            
-            }
-          /*окно поиска конец*/
-     
-        /*Шапка конец*/
+        
+        }
+      /*окно поиска конец*/
+ 
+    /*Шапка конец*/
+
+/*Подвал*/
+footer{
+    padding:0;
+    display: block;
+    margin: 2rem 0 1rem 0;
+    height: 100%;
+    width: 100%
     
-    /*Подвал*/
-    footer{
-        padding:0;
-        display: block;
-        margin: 2rem 0 1rem 0;
-        height: 100%;
-        width: 100%
-        
-    }
-     footer img{
-         height:60px;
-         width:60px;
-         padding: 0 20px 0 20px;
-         margin: 0;
-     }
-     /*Подвал*/
+}
+ footer img{
+     height:60px;
+     width:60px;
+     padding: 0 20px 0 20px;
+     margin: 0;
+ }
+ /*Подвал*/
