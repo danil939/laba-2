@@ -86,16 +86,16 @@
 
     /*Новости конец*/
    
-      /*Шапка*/
-      header {
+     /*Шапка*/
+     header {
         
-        height: 90px;
+        height: 80px;
         width: 100%;
-        margin-bottom:16rem;
+        margin-bottom:14rem;
     }
     .clearfix img{
-        height: 80px;
-        width: 80px;
+        height: 70px;
+        width: 70px;
         padding: 5px;
 
     }
@@ -180,8 +180,8 @@ footer{
     
 }
  footer img{
-     height:80px;
-     width:80px;
+     height:60px;
+     width:60px;
      padding: 0 20px 0 20px;
      margin: 0;
  }
