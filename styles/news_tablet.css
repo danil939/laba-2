@@ -148,15 +148,15 @@
       margin: -3.1rem 0 0 0;
   }
   .menu__link a{
-    font-size: 14px;
+    font-size: 15px;
     margin: 5px;
     margin-top:10px;
     padding: 7px 7px  7px 7px;
   }
   nav {
-    width: 86%;
-
-  }
+    width: 87%;
+    justify-content: center;
+   }
 /*Шапка конец*/
 
 /* Подвал сайта*/

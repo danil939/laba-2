@@ -1,11 +1,19 @@
 /*Фото и видео*/
+h1{
+  font-size: 16px;
+  text-align: center;
+}
+p{
+    font-size: 14px;
+}
 
-.flex-container {
-    width: 100%;
-    display: block;
-    justify-content: center;
-    margin: 0;
-    padding: 40px 0 20px 0;
+.flex-container{
+ width: 90%;
+ height: 100%;
+ padding:2rem 0 0 0;
+ display: block;
+ margin: 0 5% 0 5%;
+
 }
   .photo {
     width: 100%;
@@ -13,7 +21,7 @@
     padding: 0 5% 0 5%;
     display: block;
     margin:-1.5rem 0 6rem 0;
-  
+  font-weight: 600;
   }
   .photo img {
     width: 100%;
@@ -21,40 +29,43 @@
    margin: 0 0 5px 0;
     border-radius: 10px;
   }
-  .photo h1 {
-    font-size: 20px;
-  }
   
   .Video {
-   height: 300px;
+   height: 100%;
    padding:0 0 2rem 1rem;
 
   }
+  .video-container {
+    width: 90%;
+    height: 100%;
+    padding:2rem 0 0 0;
+    display: block;
+    margin: 0 5% 0 5%;
+   
+  }
   .Video iframe {
-    width: 53%;
-    height:100%;
-    
+    width: 100%;
+    height:300px;
+    border-radius: 8px;
 
   }
   .kvid{
-    width: 45%;
-    height: 30%;
-
+    width: 100%;
   }
   .kvid p {
-    font-size: 16px;
-    font-weight: 800;
+    text-align:center; 
+    font-weight: 600;
   }
   .nazv-1 h1{
-    margin-bottom: 0;
-    font-size: 24px;
+    margin-bottom: 1rem;
+    font-size: 18px;
     padding:9rem 0 0 0;
    
   }
   .nazv-2 h1{
     margin-bottom: 0;
-    font-size: 24px;
-    padding:2rem 0 1rem 0;
+    font-size: 18px;
+    padding:1rem 0 2rem 0;
    
   }
   
@@ -62,3 +73,104 @@
 /* Фото и видео конец*/
 
   
+       /*Шапка*/
+       header {
+        
+        height: 110px;
+        width: 100%;
+        margin-bottom:7.8rem;
+    }
+    .clearfix img{
+        height: 100px;
+        width: 100px;
+        padding: 5px;
+
+    }
+    .menu{
+      display: block;
+      padding:6rem 22.5% 0 22.5%;
+      width:100%;
+     
+       
+    }
+    .menu__links {
+        display: block;
+        padding: 2rem 0 1rem 0; 
+    }
+    .mobile{
+        display: block;
+    }
+    nav {
+        display: block;
+        justify-content: center;
+        padding: 0 0 2rem 0;
+    }
+    .menu li a{
+        width: 100%;
+        font-weight: bold;
+        font-size: 18px;
+       
+    }
+    .menu li {
+        margin:0;
+        padding:10px 10px 10px 10px;
+    }
+     /*окно поиска*/
+        form {
+            position: relative;
+            width: 50%;
+            margin: -47px 25% 5px 25%;
+         
+            
+        }
+        input {
+          height: 33px;
+          font-size: 16px;
+      }
+      button { 
+          height: 30px;
+          width: 30px;
+          padding-right:0; 
+              }
+        button:before {
+            margin: -3px 0 4px -3px;
+            padding: 0 2px 0 0;
+    
+        }
+        @-moz-document url-prefix() {
+            button { 
+                height: 40px;
+                width: 40px;
+                
+            }
+            input {
+                height: 40px;
+            }
+        
+            button:before {
+            font-size: 38px;
+            padding:10px 0 0 0;
+        
+            }
+        
+        }
+      /*окно поиска конец*/
+ 
+    /*Шапка конец*/
+
+/*Подвал*/
+footer{
+    padding:0;
+    display: block;
+    margin: 4rem 0 1rem 0;
+    height: 100%;
+    width: 100%
+    
+}
+ footer img{
+     height:80px;
+     width:80px;
+     padding: 0 40px 0 40px;
+     margin: 0;
+ }
+ /*Подвал*/

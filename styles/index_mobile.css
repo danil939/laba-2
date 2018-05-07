@@ -2,12 +2,14 @@ h1{
     font-size: 16px;
     text-align: center;
   }
+  p{
+      font-size: 14px;
+  }
  
   .flex-container{
    width: 90%;
    height: 100%;
    padding:2rem 0 0 0;
-   border-radius: 8px;
    display: block;
    margin: 0 5% 0 5%;
 
@@ -78,12 +80,13 @@ h1{
  /*Главная конец*/
 
 
-      /*Шапка*/
-      header {
+  
+       /*Шапка*/
+       header {
         
         height: 110px;
         width: 100%;
-        margin-bottom:14rem;
+        margin-bottom:15rem;
     }
     .clearfix img{
         height: 100px;
@@ -93,7 +96,7 @@ h1{
     }
     .menu{
         display: block;
-        padding:6rem 15% 0 15%;
+        padding:6rem 25% 0 25%;
         width:100%;
        
     }
@@ -107,11 +110,12 @@ h1{
     nav {
         display: block;
         justify-content: center;
+        padding: 0 0 2rem 0;
     }
     .menu li a{
         width: 100%;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 18px;
        
     }
     .menu li {
@@ -121,17 +125,18 @@ h1{
      /*окно поиска*/
         form {
             position: relative;
-            width: 40%;
-            margin: -47px 30% 5px 30%;
+            width: 50%;
+            margin: -47px 25% 5px 25%;
+         
             
         }
         input {
-            height: 35px;
+            height: 33px;
             font-size: 16px;
         }
         button { 
-            height: 33px;
-            width: 33px;
+            height: 30px;
+            width: 30px;
             padding-right:0; 
                 }
         button:before {
@@ -170,9 +175,9 @@ footer{
     
 }
  footer img{
-     height:100px;
-     width:100px;
-     padding: 0 65px 0 65px;
+     height:80px;
+     width:80px;
+     padding: 0 40px 0 40px;
      margin: 0;
  }
  /*Подвал*/
