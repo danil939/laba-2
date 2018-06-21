@@ -1,13 +1,4 @@
  /*Новости*/
- h1{
-    font-size: 16px;
-    text-align: center;
-  }
-  p{
-      font-size: 14px;
-  }
-
-
     .nov-container {
         width: 90%;
         display: block;
@@ -25,7 +16,7 @@
          
           .nov_content1 img{
             width: 100%;
-            height: 250px;  
+            height: 300px;  
             border-radius: 8px;
           }
         
@@ -36,9 +27,7 @@
               text-align: justify;
               
           }
-         
-        
-        
+
           .nov_content3{
             width:80%;
             margin:0 10% 0 10%;
@@ -46,28 +35,21 @@
             font-size: 18px;
             border-radius: 8px;
             border: 1px solid black;
-       
+    
           }
           .nov_content3 label p{
           font-size: 16px;
-       
           }
           .nov_content3 textarea{
             width: 200px;
             height: 50px;
-         
           }
           .table {
             width: 85%; 
             align-content: center; 
-           
-            }
-            
-            th, td {
-              border: 2px solid rgba(0, 0, 0, 0.349);
-              
-            
-           
+            }      
+         th, td {
+          border: 2px solid rgba(0, 0, 0, 0.349);
             }
         .coment p{
          font-size: 16px;
@@ -86,103 +68,43 @@
 
     /*Новости конец*/
    
-     /*Шапка*/
-     header {
-        
-        height: 80px;
+      /*Шапка*/
+      header {
+        height: 130px;
         width: 100%;
-        margin-bottom:17rem;
+        margin: 0 0 6rem 0;
+     
     }
-    .clearfix img{
-        height: 70px;
-        width: 70px;
-        padding: 5px;
+    header img{
+        height:120 px;
+        width: 120x;
+        float: right;
+        margin:5px;
+    }
 
-    }
-    .menu{
-        display: block;
-        padding:4.5rem 25% 0 25%;
-        width:100%;
-       
-    }
-    .menu__links {
-        display: block;
-        padding: 2rem 0 1rem 0; 
-    }
-    .mobile{
-        display: block;
-    }
-    nav {
-        display: block;
-        justify-content: center;
-        padding: 0 0 2rem 0;
-    }
-    .menu li a{
-        width: 100%;
-        font-weight: bold;
-        font-size: 18px;
-       
-    }
-    .menu li {
-        margin:0;
-        padding:10px 10px 10px 10px;
-    }
-     /*окно поиска*/
-        form {
-            position: relative;
-            width: 50%;
-            margin: -47px 25% 5px 25%;
-         
-            
-        }
-        input {
-            height: 33px;
-            font-size: 16px;
-        }
-        button { 
-            height: 30px;
-            width: 30px;
-            padding-right:0; 
-                }
-        button:before {
-            margin: -3px 0 4px -3px;
-            padding: 0 2px 0 0;
-    
-        }
-        @-moz-document url-prefix() {
-            button { 
-                height: 40px;
-                width: 40px;
-                
-            }
-            input {
-                height: 40px;
-            }
-        
-            button:before {
-            font-size: 38px;
-            padding:10px 0 0 0;
-        
-            }
-        
-        }
-      /*окно поиска конец*/
- 
-    /*Шапка конец*/
+
+ /*окно поиска*/
+  .navbar{
+      width: 100%
+  }
+
+/*Шапка конец*/
 
 /*Подвал*/
 footer{
-    padding:0;
-    display: block;
-    margin: 2rem 0 1rem 0;
-    height: 100%;
-    width: 100%
-    
+
+display: block;
+height: 100%;
+width: 100%
+
 }
- footer img{
-     height:60px;
-     width:60px;
-     padding: 0 20px 0 20px;
-     margin: 0;
+footer img{
+ height:100px;
+ width:150px;
+ padding: 0 30px 0 30px;
+ margin: 0 30px 0 30px;
+}
+/*Подвал*/
+hr {
+  background: black;
  }
- /*Подвал*/

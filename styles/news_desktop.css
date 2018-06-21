@@ -1,16 +1,10 @@
   /*Новости-начало*/
-  h1{
-    font-size: 20px;
-    text-align: center;
-  }
-  p{
-    font-size: 18px;
-  }
+
   .nov-container {
     width: 100%;
     height: 100%;
     padding: 20px;
-      display: flex;
+    display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
   }
@@ -60,9 +54,6 @@
         font-size: 18px;
      
       }
-     
-   
-     
   .coment  {
     width: 100%;
     height: 30%;
@@ -72,7 +63,7 @@
     text-align: start;
     padding-left: 10px;
   }
-
-  
-  
   /*Новости-конец*/
+  hr {
+    background: black;
+   }

@@ -1,20 +1,14 @@
  /* Фото и видео*/
-    h1{
-      font-size: 18px;
-      text-align: center;
-    }
-   
-    p{
-      font-size: 16px;
-    }
+ h3{
+  text-align: center;
+  font-size: 14px;
+  }
     .flex-container{
     width: 100%;
     height: 100%;
     border-radius: 8px;
     display: flex;
     justify-content: space-around;
-  
-      
 }
     .photo {
         width: 40%;
@@ -22,16 +16,13 @@
         margin:0;
        margin-bottom: 10px; 
        font-weight: 600;
-       
       }
-    
+  
       .photo img {
         width: 100%;
         height: 100%;
         margin:  0;
         border-radius: 8px;
-        
-    
       }
       
       .video-container {
@@ -75,99 +66,37 @@
      
       }
  /* Фото и видео конец*/
- /*Шапка*/
+  /*Шапка*/
   header {
     height: 130px;
     width: 100%;
-    margin-bottom: 70px;
+    margin:0 0 70px 0;
  
   }
-  .clearfix img{
+  header img{
     height: 120px;
     width: 120px;
-    padding: 5px;
+   float: right;
   }
-  
- 
-/*окно поиска*/
-form {
-  position: relative;
-  width: 160px;
-  margin:38px -65px 0 15px;
+  /*окно поиска*/
 
-  }
-  input, button {
-  border: none;
-  outline: none;
-  border-radius: 8px;
-  }
-  input {
-  width: 100%;
-  height: 22px;
-  background: #F9F0DA;
-  padding: 0 0 2px 10px;
-  margin-right: -5rem;
-
-  }
-  button {
-  height: 21px;
-  width: 23px;
-  position: absolute;
-  top: 1px;
-  right: -9px;
-  bottom:1px;
-  background:rgba(235, 69, 69, 0.981);
-  cursor: pointer;
-  }
-  button:before {
-  margin: 0px -6px  ;
-  font-size: 18px;
-  }
-  @-moz-document url-prefix() {
-    button {
-    width: 23px;
-    }
-    button:before {
-    font-size: 18px;
-   }
-
-}
-/*окно поиска конец*/
-
-
-  .menu {
-   margin-top: 10px;
-   width: 100%;
-   justify-content: flex-start;
- 
-  }
-  .menu__link{
-      padding: 0;
-      margin-top:-10px; 
-      margin-bottom: 0;
-  }
-  .menu__link a{
-    font-size: 15px;
-    margin: 5px;
-    margin-top:10px;
-    padding: 7px 7px  7px 7px;
-  }
-  nav {
-    width: 87%;
-    justify-content: center;
-   }
+ .navbar{
+   width: 100%
+ }
 /*Шапка конец*/
 
 /* Подвал сайта*/
-  footer {
-    width: 100%;
-    height: 100%;
-    display: block;
- 
+footer {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 0 1rem 0;
+  padding: 0 ;
+}
+footer img{
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  padding: 0;
   }
-  footer img {
-      width: 80px;
-      height: 80px;
-  
-    }
      /* Подвал сайта конец*/

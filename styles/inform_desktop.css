@@ -1,6 +1,4 @@
 /* Сайт-Информация */
-
-
 .flex-content {
   width: 100%;
   height: 100%;
@@ -35,8 +33,6 @@
   border-radius: 8px;
  
 }
-
-
 .box1 img {
   width: 100%;
   height: 100%;
@@ -53,9 +49,7 @@
   margin-bottom: 15px;
   align-self: stretch;
 }
-.box2 h1 {
-  text-align: center;
-}
+
 .box3{
   width: 60%;
   height: 48%;
@@ -64,9 +58,6 @@
   overflow-y: auto;
   margin-bottom: 15px;
   align-self: flex-start;
-}
-.box3 h1 {
-  text-align: center;
 }
 
 /* Сайт-Информация конец*/

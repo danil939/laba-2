@@ -13,8 +13,6 @@ p{
   display: flex;
   justify-content: space-around;
 }
-
-   
 .photo {
   width: 21%;
   height: 30%;
@@ -30,7 +28,6 @@ p{
   padding: 0;
   margin:0 ;
 }
-
 .video-container {
   width: 100%;
   height: 100%;
@@ -39,7 +36,6 @@ p{
 	display: flex;
 	flex-flow: row wrap;
 }
-
 .Video {
  width: 100%;
  height: 30%;
@@ -61,20 +57,11 @@ p{
 }
 .kvid p {
   color: black;
-  
   font-weight: 700;
 }
-
-
-.nazv-1 h1{
-  text-align: center;
-  margin: 0 0 1rem 0;
-  padding: 1rem 0 0 0;
+.nazv-1 h2{
+padding: 0 0 1rem 0;
 }
 
-.nazv-2 h1{
-  text-align: center;
-  margin-bottom: 30px;
-}
 
 /* Сайт-Фото и Видео  конец*/

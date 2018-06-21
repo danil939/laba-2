@@ -1,0 +1,53 @@
+
+  .content-container{
+    width: 100%;
+    height: 100%;
+    padding: 0 ;
+    display: block;
+    padding: 20px;
+    margin: 0;
+   
+  }
+ 
+    .zagolovok {
+    padding: 0 2rem 0 2rem ;
+    margin: 0 0 3rem 0;
+    padding:  0;
+    width: 100%;
+
+  }
+  .novosti p{
+    font-size: 16px;
+    text-align: justify;
+    width: 100%;
+    padding: 0 0 2rem 0;
+
+  }
+  .personal {
+    width: 60%;
+    height: 100%;
+    float: left;
+    display: block;
+        
+  }
+  .personal img {
+    float: left;
+    width:60%;
+    height: 60%;  
+  }
+ .info {
+    float: left;
+    text-align: justify;
+  }
+  .reklama{
+  float: right;
+  width: 25%;
+
+  }
+  .reklama img{
+    float: right;
+    width:90%;
+    height: 70%; 
+    padding :0 0 1rem 0;
+  } 
+  
