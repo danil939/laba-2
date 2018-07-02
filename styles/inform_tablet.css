@@ -1,38 +1,18 @@
 /* Информация*/
-
       .box{
         height: 300px;
         overflow-y: auto;
+        text-align: justify;
+                
       }
-    
       .p li{
         word-wrap: break-word;
       }
 
-  /* Информация конец*/
-
    /*Шапка*/
-   header {
-    height: 130px;
-    width: 100%;
-    margin:0 0 70px 0;
- 
-  }
-  header img{
-    height: 120px;
-    width: 120px;
-   float: right;
-  }
-  /*окно поиска*/
-
  .navbar{
    width: 100%
  }
-/*Шапка конец*/
 
-/* Подвал сайта*/
-.box_ img{
-  width: 80px;
-  height: 80px;
-}
-     /* Подвал сайта конец*/
+
+  

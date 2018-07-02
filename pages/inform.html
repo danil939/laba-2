@@ -1,7 +1,7 @@
     <!DOCTYPE html> 
 
 
-        <html> 
+        <html  lang="en"> 
         
         <head> 
         <title>Информация</title> 
@@ -11,10 +11,8 @@
         <meta name="keywords" content="Информация "> 
         <link rel="stylesheet" media="screen" href="../styles/INFORM.css">
         <link rel="shortcut icon" href="../assets/logo_icon.png" type="image/png">
-        <script src="./script/main.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
         </head> 
@@ -25,8 +23,10 @@
         <body > 
     <header>
         
-            <img src="../assets/logo.png">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+           
+      <nav class="navbar navbar-expand-lg navbar-dark  pt-2 mb-4" style="background: #3a5966;" >
+        <a class="navbar-brand" href="../index.html"><img src="../assets/logo.png" ></a>
+
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -42,10 +42,15 @@
                       <li class="nav-item active">
                         <a class="nav-link " href="inform.html">Информация</a>
                       </li>
-                      <li class="nav-item">
-                          <a class="nav-link " href="photo_video.html">Фото и видео</a>
-                        </li>
-                       
+                      <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Фото и Видео
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="Photo.html">Фото</a>
+                              <a class="dropdown-item" href="Video.html">Видео</a>
+                            </div>
+                          </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
                           <input class="form-control mr-sm-2" type="search" placeholder="Найти..." aria-label="Search">
@@ -59,8 +64,8 @@
         <div class="container-fluid">
             <div class="container " >
                 <div class="row">
-                    <div class="box mt-4 col-lg-5 col-md-5 col-sm-10 ">
-                    <p><h2 class="text-left">Список представителей команд:</h2>
+                    <div class="box mt-4 col-lg-5 col-md-5 col-sm-12 ">
+                    <p><h3 class="text-left">Список представителей команд:</h3>
                         <li>Центральный федеральный округ</li>
                         <li>Белгородская область</li>
                         <li>  Владимирская область</li>
@@ -122,10 +127,10 @@
                     </p>
                        
                 </div>
-                <div class="box mt-4 col-lg-7 col-md-7 col-sm-10 pr-md-0">
+                <div class="box mt-4 col-lg-7 col-md-7 col-sm-12 pr-md-0">
                     <img src="../assets/inform-1.jpg" class="w-100" >
                 </div>
-                <div class="box col-lg-6 col-md-12 col-sm-10 ">
+                <div class="box col-lg-6 col-md-12 col-sm-12 ">
                         <p><h3 class="text-center">Общероссийская общественная организация «Федерация армрестлинга России»</h3> 
                             Основана в 1990 году.
                             Зарегистрирована Министерством Юстиции Российской Федерации 11 февраля 2000 г.
@@ -148,7 +153,7 @@
                            <li>    ОГРН 1027700534608 </li></p>
                         
                        </div>
-                <div class="box col-lg-6 col-md-12 col-sm-10">
+                <div class="box col-lg-6 col-md-12 col-sm-12">
                        <p> <h3 class="text-center">Армрестлинг как вид спорта для физического развития молодежи</h3> 
                         Слово «армрестлинг» происходит от слияния двух английских слов «arm» и «wrestling»; arm – рука, а wrestle, wrestling – упорная борьба. Армрестлинг есть вид спортивной борьбы – поединок на руках, проводимый по определенным правилам на специальных столах. 
 
@@ -169,24 +174,98 @@
                     </div>
              </div>
           </div>
-       </div> 
+       
+    <div id="demo">
+      <div class="container row mx-auto">
+        <button v-on:click="show = !show " class="btn btn-primary">Информация про паспорт ФАР </button>
+        <transition name="fade">
+          <p v-if="show"><b>Электронный паспорт Федерации армрестлинга России - обязательный документ для каждого члена ФАР- спортсмена, тренера, рефери!</b>
+            <br><br>
+              Паспорт оформляется один раз (если человеку больше 25 лет) и используется без ограничения времени. 
+              Если паспорт оформляется человеком, младше 25 лет - ему предстоит обменять паспорт на новый, при достижении 25 лет, с заменой фотографии.
+              <br><br>
+              
+              Стоимость изготовления паспорта - 2000 рублей (с 1 января 2015 года).
+              Стоимость обмена паспорта на новый, с заменой фотографии - 1200 рублей (с 1 января 2015 года).
+              Стоимость изготовления дубликата паспорта (при утере, порче и т.д.) - 1200 рублей (с 1 января 2015 года).
+              <br><br>
+              
+              
+              При оформлении паспорта ФАР через сайт необходимо заранее отсканировать паспорт гражданина РФ, заграничный паспорт и сделать фотографию, как на паспорт гражданина РФ. 
+              <br><br>
+              
+              Фотографию на паспорт гражданина РФ необходимо сделать в фотоателье и записать ее на диск. (флешку).
+              <br><br>
+              
+              Это значит, что Вы должны сказать фотографу, примерно следующее: "Товарищ! мне НЕ нужна фотография в печатном виде! Мне НУЖНА фотография в ЭЛЕКТРОННОМ виде, чтобы я мог (могла) прикрепить её к своему электронному письму и отправить её по электронной почте! Запишите мне её на диск (флешку) или отправьте мне её на мой имэйл (говорите (пишите) фотографу свой личный имэйл)". 
+              <br><br>
+             <b> Отсканированные фотографии - НЕ ПРИНИМАЮТСЯ! </b>
+              <br><br>
+              <b>Внимание!
+              Спортсмены, не имеющие паспорта ФАР, не смогут принять участие в календарных соревнованиях Федерации армрестлинга России!</b>
+          <br><br>
+   
+            <img class="img-fluid " src="../assets/паспорт_1.jpg" class="w-100" >
+          <img class="img-fluid" src="../assets/паспорт_2.jpg" class="w-100">
+       
+          
+        </p>
+        </transition>
+      </div>
+    </div>
       
 
-        <div class="footer  " >
-                <div class="box_   my-4 py-2">
-                    <img src="../assets/icon1-1.png" border="0" alt="" onmouseover="this.src='../assets/icon1.png';" onmouseout="this.src='../assets/icon1-1.png';">
-                    <img src="../assets/icon2-2.png" border="0" alt="" onmouseover="this.src='../assets/icon2.png';" onmouseout="this.src='../assets/icon2-2.png';">
-                    <img src="../assets/icon3-3.png" border="0" alt="" onmouseover="this.src='../assets/icon3.png';" onmouseout="this.src='../assets/icon3-3.png';">
-                    <img src="../assets/icon4-4.png" border="0" alt="" onmouseover="this.src='../assets/icon4.png';" onmouseout="this.src='../assets/icon4-4.png';">
-                    <img src="../assets/icon5-5.png" border="0" alt="" onmouseover="this.src='../assets/icon5.png';" onmouseout="this.src='../assets/icon5-5.png';">             
-                    <img src="../assets/icon6-6.png" border="0" alt="" onmouseover="this.src='../assets/icon6.png';" onmouseout="this.src='../assets/icon6-6.png';">
-                 </div> 
-            </div>
+         <div class="footer1  " >
+          <div class="container my-4 py-2 px-0 "  >
+              <div class="row d-lg-flex mx-auto " >
+                       <div class="col-lg-2 col-md-2 col-sm-4 col-6"><img  class="img-fluid" src="../assets/icon1-1.png" border="0" alt="" onmouseover="this.src='../assets/icon1.png';" onmouseout="this.src='../assets/icon1-1.png';"></div>
+                       <div class="col-lg-2 col-md-2 col-sm-4 col-6">  <img  class="img-fluid" src="../assets/icon2-2.png" border="0" alt="" onmouseover="this.src='../assets/icon2.png';" onmouseout="this.src='../assets/icon2-2.png';"></div>
+                        
+                       
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-6">   <img  class="img-fluid" src="../assets/icon3-3.png" border="0" alt="" onmouseover="this.src='../assets/icon3.png';" onmouseout="this.src='../assets/icon3-3.png';"></div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-6">   <img  class="img-fluid" src="../assets/icon4-4.png" border="0" alt="" onmouseover="this.src='../assets/icon4.png';" onmouseout="this.src='../assets/icon4-4.png';"></div>
+                       
+                        
+                         <div class="col-lg-2 col-md-2 col-sm-4 col-6">  <img  class="img-fluid" src="../assets/icon5-5.png" border="0" alt="" onmouseover="this.src='../assets/icon5.png';" onmouseout="this.src='../assets/icon5-5.png';">  </div>           
+                         <div class="col-lg-2 col-md-2 col-sm-4 col-6"> <img  class="img-fluid" src="../assets/icon6-6.png" border="0" alt="" onmouseover="this.src='../assets/icon6.png';" onmouseout="this.src='../assets/icon6-6.png';"></div>
+              </div>
+         </div> 
+      </div>
+      <div class="footer2  " style="background:#416372; ">
+          <div class="container my-4 py-2 px-0"  >
+                  <div class="row d-flex d-xs-flex mx-auto " >
+                          <div class="col-lg-6 col-md-6 col-sm-6 ">
+                                  <h3 class="text-left">Контакты:</h3>
+                                  <p><span>Email:</span> neodim891@mail.ru</p>
+                                  <p><span>Телефон:</span> +7 951 196 52 87</p>
+                                  <p><span>Прочие ссылки:</span> <a href="https://vk.com/id233065710">https://vk.com/id233065710 </a> </p>
+                              
+                           </div>
+                           <div class="col-lg-4 col-md-4 col-sm-4 pt-4">
+                                  Общероссийская Общественная Организация «Федерация армрестлинга России»
+                            </div>
+                          <div class="col-lg-2 col-md-2 col-sm-2 col-2  ">
+                               <img  class="img-fluid" src="../assets/footer_logo.png"  >
+                           </div>
+
+
+
+                           </div>
+                      
+
+
+                   </div>
+           </div>
+      </div>
+
+  
 
          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    
+         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+         <script src="../scripts/inform.js"></script>
+
     
     </body>
     </html>

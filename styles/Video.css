@@ -1,0 +1,7 @@
+@import url(style.css);
+
+@import url(video-desktop.css) (min-width:1024px);
+
+@import url(video-tablet.css) (min-width:769px) and (max-width:1023px);
+
+@import url(video-mobile.css) (max-width:768px);

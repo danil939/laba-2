@@ -1,0 +1,7 @@
+@import url(style.css);
+
+@import url(photo-desktop.css) (min-width:1024px);
+
+@import url(photo-tablet.css) (min-width:769px) and (max-width:1023px);
+
+@import url(photo-mobile.css) (max-width:768px);

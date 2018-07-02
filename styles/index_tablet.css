@@ -1,9 +1,7 @@
  /*Главная*/
  h3{
   text-align: center;
-
   }
-  
   .content{
     height: 300px;
     overflow-y: auto;
@@ -15,20 +13,9 @@
     border-radius: 8px;
   }
  
-  
 /*Главная конец*/
   /*Шапка*/
-  header {
-    height: 130px;
-    width: 100%;
-    margin:0 0 70px 0;
  
-  }
-  header img{
-    height: 120px;
-    width: 120px;
-   float: right;
-  }
   /*окно поиска*/
 
  .navbar{
@@ -37,10 +24,7 @@
 /*Шапка конец*/
 
 /* Подвал сайта*/
-.box_ img{
-  width: 80px;
-  height: 80px;
-}
+
      /* Подвал сайта конец*/
      hr {
       background: black;
